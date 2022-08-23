@@ -8,6 +8,8 @@ LinkedIn Learning:
     * **Concepts and Skills**:
   * [Learning Kubernetes](https://www.linkedin.com/learning/certificates/72dc9949401278c89ec424819db80ddb0f83d15ef7183c0373c0ffc1ee130d59?trk=share_certificate)
     * **Concepts and Skills**:
+  * [Kubernetes: Cloud Native Ecosystem](https://www.linkedin.com/learning/certificates/259b7a318fc34b18c42a9c4bffa80f135d2544933a858a562078ced40aac7a76?trk=share_certificate)
+    * **Concepts and Skills**: Key steps along the CNCF Trail Map. Industry standard and emerging tools for these steps. Designing a cohesive toolset for application service, CI/CD, logging and monitoring, and security. 
 * "Become a Linux System Administrator" Learning Path
 * "Master Agile Software Development" Learning Path
   * [Agile Software Development](https://www.linkedin.com/learning/certificates/2a7a2fc373ac9eae6b2c97949568f9fb61723f4940e9308fefbcc8071054a680?trk=share_certificate)
