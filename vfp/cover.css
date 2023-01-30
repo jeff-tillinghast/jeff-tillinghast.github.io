@@ -21,10 +21,10 @@
     order: 5;
 }
 
-.source {
+#source {
     text-indent: 30px;
 }
 
-.source:before {
+#source::before {
     content: "--";
 }
