@@ -1,0 +1,102 @@
+  .tileBio {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20vw;
+  }
+  
+  .tileBio img {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .bioText {
+    padding: 10px;
+    text-indent: 10px;
+  }
+
+  .bioName {
+    display: inherit;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .bioNameFirst {
+    width: 100%;
+    font-family: var(--altFont);
+    font-size: 4em;
+    line-height: 80%;
+  }
+  
+  .bioNameLast {
+    width: 100%;
+    font-family: var(--altFont);
+    font-size: 2em;
+  }
+    
+  .tagList {
+    list-style-position: outside;
+    padding: auto;
+  }
+  
+
+@media only screen and (max-width: 1400px) {
+ 
+  .tileBio {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+  }
+  
+  .tileBio img {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  .tileBio:last-of-type {
+    margin-bottom: 120px;
+  }
+
+  .bioText {
+    padding: 10px;
+
+    text-indent: 10px;
+  }
+
+  .bioName {
+    display: inherit;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .bioNameFirst {
+    width: 100%;
+    font-family: var(--altFont);
+    font-size: 4em;
+    line-height: 80%;
+  }
+  
+  .bioNameLast {
+    width: 100%;
+    font-family: var(--altFont);
+    font-size: 3em;
+  }
+    
+  .tagList {
+    list-style-position: outside;
+    padding: auto;
+  }
+  
+}

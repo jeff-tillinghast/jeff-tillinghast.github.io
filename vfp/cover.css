@@ -1,0 +1,15 @@
+.tilePic {
+    order: 4;
+}
+
+.tileVid {
+    order: 2;
+}
+
+.tileIntro {
+    order: 1;
+}
+
+.tileCal {
+    order: 3;
+}

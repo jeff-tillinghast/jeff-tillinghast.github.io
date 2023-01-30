@@ -1,0 +1,139 @@
+* {
+    --star1Box: 80px;
+    --star2Box: 60px;
+    --star3Box: 40px;
+    --star4Box: 20px;
+  }
+  
+  .logo_container {
+    z-index: 2;
+    order: 1;
+    background-color: white;
+    display: inherit;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+    color: var(--colorText);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .row {
+    width: 100%;
+    height: 30px;
+    flex: 1 100%;
+    display: inherit;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1.5em;
+    letter-spacing: 0px;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .row_text {
+    padding-right: 5px;
+    z-index: 1;
+    font-family: var(--activeFont);
+  }
+  
+  .bar {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    height: 80%;
+    flex: 1;
+    z-index: 1;
+  }
+  
+  .bar1 {
+    background-color: var(--color1);
+    }
+  
+  .bar2 {
+    background-color: var(--color2);
+  }
+  
+  .bar3 {
+    background-color: var(--color1)
+  }
+  
+  .foot {
+    position: absolute;
+    padding-top: 65px;
+    padding-left: calc(95% - 180px);
+    font-size: .8em;
+    z-index: 2;
+    color: white;
+    font-family: var(--activeFont);
+  }
+
+  
+  .starBorder {
+    background-color: var(--colorText);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    z-index: 2;
+    position: absolute;
+  }
+  
+  .star {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: var(--color3);
+    z-index: 3;
+  }
+  
+  .starBord1 {
+    top: 45px;
+    left: 130px;
+    height: var(--star1Box);
+    width: var(--star1Box);
+    transform: rotate(-25deg);
+  }
+  
+  .starBord2 {
+    top: 20px;
+    left: 210px;
+    height: var(--star2Box);
+    width: var(--star2Box);
+    transform: rotate(-5deg);
+  }
+  
+  .starBord3 {
+    top: 20px;
+    left: 285px;
+    height: var(--star3Box);
+    width: var(--star3Box);
+    transform: rotate(15deg);
+  }
+  
+  .starBord4 {
+    top: 45px;
+    left: 340px;
+    height: var(--star4Box);
+    width: var(--star4Box);
+    transform: rotate(35deg);
+  }
+  
+  .star1 {
+    height: calc(var(--star1Box) - 6px);
+    width: calc(var(--star1Box) - 6px);
+  }
+  
+  .star2 {
+    height: calc(var(--star2Box) - 6px);
+    width: calc(var(--star2Box) - 6px);
+  }
+  
+  .star3 {
+    height: calc(var(--star3Box) - 6px);
+    width: calc(var(--star3Box) - 6px);
+  }
+  
+  .star4 {
+    height: calc(var(--star4Box) - 6px);
+    width: calc(var(--star4Box) - 6px);
+  }
+  

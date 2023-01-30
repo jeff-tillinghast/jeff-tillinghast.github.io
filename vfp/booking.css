@@ -1,0 +1,19 @@
+.quoteBox {
+}
+
+blockquote {
+  text-indent: 10px;
+}
+
+figcaption {
+  text-align: right;
+  padding-right: 10px;
+  text-indent: true;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.highlight {
+  color: var(--color1);
+}

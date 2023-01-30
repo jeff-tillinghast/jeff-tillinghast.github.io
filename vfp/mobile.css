@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  --colorText: #000000;
+  --activeFont: 'Boogaloo', cursive;
+  --altFont: 'Caveat', cursive;
+  --elementOpacity: .98;
+  --color1:#EC0F0F;
+  --color2:#13518A;
+  --color3:rgba(255,255,255,1);
+}
+
+.wrapper {
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 100vw;
+  top: 1px;
+  left: 1px;
+  background: url("stage_instruments_bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+header {
+  display: inherit;
+  flex-direction: column;
+}
+
+nav {
+  order: 3;
+  display: inherit;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: var(--color3);
+}
+
+.menuItem {
+  order: 3;
+  display: inherit;
+  justify-content: center;
+  background-color: white;
+  border-bottom-width: 0px;
+  font-family: var(--activeFont);
+  font-size: 1.4em;
+  padding: 10px 0px 10px 0px;
+  width: 45vw;
+}
+
+.menuItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.menuLogo {
+  order: 0;
+  align-items: center;
+  margin: auto;
+  width: 90vw;
+}
+
+.menuLogo img {
+  max-height: 150px;
+  max-width: 90%;
+}
+
+#events:hover, #events:active, #songlist:hover, #songlist:active, #booking:hover, #booking:active, #about:hover, #about:active {
+  color: var(--color2);
+}
+
+.title {
+  display: inherit;
+  justify-content: center;
+  order: 1;
+  background-color: white;
+  opacity: var(--elementOpacity);
+}
+
+.subtitle {
+  order: 2;
+  display: inherit;
+  justify-content: center;
+  background-color: white;
+  font-family: var(--activeFont);
+  font-size: 1.25em;
+  padding: 0px;
+  width: 90vw;
+  margin: 10px auto;
+}
+
+#contentpane {
+  margin: 1em auto;
+  background-color: white;
+  opacity: var(--elementOpacity);
+  min-height: 30vh;
+  width: 90vw;
+  border: .5px solid black;
+  border-radius: 10px;
+  overflow: auto;
+  margin-bottom: 80px;
+}
+
+.tile {
+  background-color: white;
+  opacity: var(--elementOpacity);
+  margin: 20px;
+  display: inherit;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.tileTitle {
+  font-family: var(--activeFont);
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.tile p {
+  text-indent: 10px;
+}
+
+.pic {
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.cal {
+  width: 100%;
+}
+
+.footSpacer {
+  padding-top: 30px;
+}
+
+.footer {
+  position: inherit;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 110px;
+  position: fixed;
+  top: calc(100vh - 100px);
+  left: 0;
+  width: 100vw;
+  align-items: center;
+  font-family: var(--activeFont);
+  font-size: 1em;
+}
+
+.footer a {
+  color: white;
+}
+
+.footerMenu {
+  position: relative;
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+.footerJT {
+  order: 2;
+  position: absolute;
+  top: 75px;
+}
+
+.footerVFP {
+  order: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.footerVFP li {
+  padding: 0px 10px 0px 10px;
+  display: block;
+  list-style-type: none;
+  flex: 0 1 auto;
+}
+
+.socCaption {
+  width: 20vw;
+}
+
+.divider {
+  background-color: black;
+  margin-bottom: 4px;
+  width: 100%
+}
+
+.lg {
+  height: 5px;
+}
+
+.sm {
+  height: 1px;
+}
