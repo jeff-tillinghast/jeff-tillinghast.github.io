@@ -42,3 +42,5 @@ window.onload = function() {
     generateComment();
     document.getElementById("generate").addEventListener('click', generateComment);
 }
+
+// window.setInterval(generateComment(), 3000);

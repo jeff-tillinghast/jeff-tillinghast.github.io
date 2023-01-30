@@ -16,3 +16,15 @@
 .tileCal {
     order: 3;
 }
+
+.tileQuote {
+    order: 5;
+}
+
+.source {
+    text-indent: 30px;
+}
+
+.source:before {
+    content: "--";
+}
