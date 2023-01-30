@@ -8,6 +8,8 @@
 
 .tileIntro {
     order: 1;
+    padding: 10px;
+    text-indent: 10px;
 }
 
 .tileCal {
